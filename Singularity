@@ -9,6 +9,7 @@ SPECIES Dinosaur
 RAWR_BASE=/code
 export RAWR_BASE
 
+
 %runscript
 echo "This gets run when you run the image!"
 exec /bin/bash /code/rawr.sh "$@"
