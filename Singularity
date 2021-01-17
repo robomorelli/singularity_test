@@ -13,6 +13,7 @@ export RAWR_BASE
 echo "This gets run when you run the image!"
 exec /bin/bash /code/rawr.sh "$@"
 
+
 %post
 echo "This section happens once after bootstrap to build the image."
 mkdir -p /code
